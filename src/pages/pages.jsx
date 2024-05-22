@@ -1,10 +1,12 @@
 import React from 'react'
-import home from './home'
+import Home from './home'
 
-function pages() {
+function Pages() {
   return (
-    <div></div>
+    <div>
+        <Home />
+    </div>
   )
 }
 
-export default pages
+export default Pages

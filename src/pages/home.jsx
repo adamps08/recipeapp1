@@ -1,15 +1,15 @@
-import veggies from "...components /veggies";
-import popular from "...components /popular";
+import Veggies from "../components/veggies";
+import Popular from "../components/popular";
 
-import React from 'react'
+import React from 'react';
 
-function home() {
+function Home() {
   return (
     <div>
-        <veggie />
-        <popular />
+        <Veggies />
+        <Popular />
     </div>
-  )
+  );
 }
 
-export default home
+export default Home;

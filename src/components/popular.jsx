@@ -2,13 +2,13 @@ import { useEffect } from "react";
 
 
 
-function popular() {
+function Popular() {
 
  useEffect(() => {
-    getPopuilar()
- },[])
+    getPopular()
+ }, [])
 
-const getPopuilar = async () => {
+const getPopular = async () => {
     const api = await fetch(`https://api.spoonacular.com/recipes/random?apiKey=${process.env.REACT_APP_API_KEY}&number=9`);
     const data = await api.json();
     console.log(data);
@@ -18,4 +18,4 @@ const getPopuilar = async () => {
   return <div>popular</div>
 }
 
-export default popular
+export default Popular
