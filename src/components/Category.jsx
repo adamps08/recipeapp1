@@ -28,6 +28,8 @@ function Category() {
   )
 }
 
+
+
 const List = styled.div`
 display: flex;
 justify-content: center;
