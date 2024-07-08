@@ -6,6 +6,8 @@ import Search from "./components/Search";
 import styled from 'styled-components';
 import { Link } from 'react-router-dom';
 import {GiKnifeFork} from "react-icons/gi"
+import './index.css';  // Assuming you have a main CSS file where you import the Google Font
+
 
 function App() {
   return (
